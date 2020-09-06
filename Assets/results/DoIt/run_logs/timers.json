@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1599426083",
+        "python_version": "3.7.9 (tags/v3.7.9:13c94747c7, Aug 17 2020, 18:58:18) [MSC v.1900 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\epcadm\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\mlagents-learn C:\\Users\\epcadm\\Documents\\Unity\\AITrainGround\\TenserflowConfig\\AITrainGround_config.yaml --run-id=DoIt --train",
+        "mlagents_version": "0.19.0",
+        "mlagents_envs_version": "0.19.0",
+        "communication_protocol_version": "1.0.0",
+        "tensorflow_version": "2.3.0",
+        "numpy_version": "1.16.0",
+        "end_time_seconds": "1599426137"
+    },
+    "total": 54.8614281,
+    "count": 1,
+    "self": 0.21335159999999576,
+    "children": {
+        "run_training.setup": {
+            "total": 0.006859299999999902,
+            "count": 1,
+            "self": 0.006859299999999902
+        },
+        "TrainerController.start_learning": {
+            "total": 54.6412172,
+            "count": 1,
+            "self": 0.0005324999999913871,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 54.6371715,
+                    "count": 1,
+                    "self": 54.6371715
+                },
+                "trainer_threads": {
+                    "total": 1.300000000981072e-06,
+                    "count": 1,
+                    "self": 1.300000000981072e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 0.0035119000000065625,
+                    "count": 1,
+                    "self": 0.0035119000000065625
+                }
+            }
+        }
+    }
+}

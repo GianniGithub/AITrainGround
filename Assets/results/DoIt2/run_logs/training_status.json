@@ -1,0 +1,23 @@
+{
+    "Drones": {
+        "checkpoints": [
+            {
+                "steps": 0,
+                "file_path": "results\\DoIt2\\Drones\\Drones-0.nn",
+                "reward": null,
+                "creation_time": 1599426592.8131928
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 0,
+            "file_path": "results\\DoIt2\\Drones.nn",
+            "reward": null,
+            "creation_time": 1599426592.8131928
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.1.0",
+        "mlagents_version": "0.19.0",
+        "tensorflow_version": "2.3.0"
+    }
+}
