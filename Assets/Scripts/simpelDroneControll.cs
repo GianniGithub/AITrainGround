@@ -22,7 +22,27 @@ public class simpelDroneControll : MonoBehaviour
     }
     public void move(float rotateDir, float dirToGo)
     {
-        var dir = new Vector3(0, 0, rotateDir * Time.deltaTime * 50f);
+        switch (dirToGo)
+        {
+            case 1:
+                dirToGo = 1;
+                break;
+            case 2:
+                dirToGo = -0.8f;
+                break;
+        }
+
+        switch (rotateDir)
+        {
+            case 1:
+                rotateDir = 1;
+                break;
+            case 2:
+                rotateDir = -1;
+                break;
+        }
+
+        var dir = new Vector3(0, 0, rotateDir * Time.deltaTime * 90f);
         transform.Rotate(dir);
         transform.Translate(Vector2.up * speed * dirToGo * Time.deltaTime);
     }

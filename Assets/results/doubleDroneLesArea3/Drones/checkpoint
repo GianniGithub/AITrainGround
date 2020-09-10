@@ -1,0 +1,2 @@
+model_checkpoint_path: "Drones-326656.ckpt"
+all_model_checkpoint_paths: "Drones-326656.ckpt"
